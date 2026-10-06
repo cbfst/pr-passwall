@@ -125,7 +125,7 @@ passwall purge
 
 The installer and manager scripts are distributed under the MIT license. The PassWall v1 and Xray binary packages hosted in the `package/` directory are distributed under the terms of their own licenses (AGPL-3.0 / BSD-3-Clause / GPL-3.0 / GPL-2.0 / MIT / MPL-2.0), with all copyright notices of the original projects preserved.
 
-The full MIT license text is available in the [LICENSE](https://codeberg.org/cbfst/pr-passwall/src/branch/main/LICENSE) file. Third-party package license texts are available in the [LICENSES](https://codeberg.org/cbfst/pr-passwall/src/branch/main/LICENSES) directory. The exact versions and sources of each binary are listed in [THIRD_PARTY_NOTICES.md](https://codeberg.org/cbfst/pr-passwall/src/branch/main/THIRD_PARTY_NOTICES.md).
+The full MIT license text is available in the [LICENSE](LICENSE) file. Third-party package license texts are available in the [LICENSES](https://github.com/cbfst/pr-passwall/tree/main/LICENSES) directory. The exact versions and sources of each binary are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## ⚠️ Disclaimer
 
