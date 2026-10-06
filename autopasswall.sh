@@ -7,7 +7,7 @@ VERSION="2.0.0"
 VERSION_DATE="05-OCT-2026"
 BASE_URL="https://github.com/cbfst/pr-passwall/raw/main/package"
 API_URL="https://api.github.com/repos/cbfst/pr-passwall/contents/package"
-SCRIPT_URL="https://github.com/cbfst/pr-passwall/raw/branch/main/autopasswall.sh"
+SCRIPT_URL="https://github.com/cbfst/pr-passwall/raw/main/autopasswall.sh"
 IRON_URL="https://codeberg.org/cbfst/pr-ironupdate/raw/branch/main/ironupdate.sh"
 CONF_LANG="/etc/passwall_mgr.lang"
 
