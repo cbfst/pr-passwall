@@ -45,12 +45,12 @@ A ready-made automation package is available for Windows:
 
 **Android [(Termux)](https://play.google.com/store/apps/details?id=com.termux) / Linux (Terminal) / macOS (Terminal):**
 ```sh
-curl -fsSL https://raw.githubusercontent.com/cbfst/pr-passwall/main/autopasswall.sh | tr -d '\r' > autosetup.sh && [ -s autosetup.sh ] && sh autosetup.sh
+curl -fsSL https://raw.githubusercontent.com/cbfst/pr-passwall/main/autosetup.sh | tr -d '\r' > autosetup.sh && [ -s autosetup.sh ] && sh autosetup.sh
 ```
 
 **iOS [(iSH App)](https://apps.apple.com/us/app/ish-shell/id1436902243):**
 ```sh
-wget -qO- https://raw.githubusercontent.com/cbfst/pr-passwall/main/autopasswall.sh | tr -d '\r' > autosetup.sh && [ -s autosetup.sh ] && sh autosetup.sh
+wget -qO- https://raw.githubusercontent.com/cbfst/pr-passwall/main/autosetup.sh | tr -d '\r' > autosetup.sh && [ -s autosetup.sh ] && sh autosetup.sh
 ```
 
 ---
