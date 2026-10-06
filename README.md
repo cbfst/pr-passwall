@@ -133,7 +133,7 @@ The software is provided "as is". The authors are not liable for equipment failu
 
 ## 🤝 Credits
 
-The project is developed and maintained by [CyberFantomo Security Technologies](https://cbf.st).
+The project is developed and maintained by [CyberFantomo Security Technologies](https://www.cbf.st).
 
 ## 📬 Contact the Team
 
