@@ -63,21 +63,11 @@ Use this option only if you have already connected to the router console over SS
 wget -O autopasswall.sh https://raw.githubusercontent.com/cbfst/pr-passwall/main/autopasswall.sh && tr -d '\r' < autopasswall.sh > /tmp/.ap && mv -f /tmp/.ap autopasswall.sh && chmod +x autopasswall.sh && ash autopasswall.sh
 ```
 
-#### Choosing a Language for Direct Installation
-For a silent installation without interactive prompts, use the `--lang` flag:
+#### Language selection for direct installation
+For a silent installation without interactive prompts, use the `--lang` flag (`en, ru, es, de`):
 
 ```sh
-/tmp/autopasswall.sh --lang=ru # Русский
-```
-```sh
-/tmp/autopasswall.sh --lang=en # English
-```
-```sh
-/tmp/autopasswall.sh --lang=es # Español
-```
-```sh
-/tmp/autopasswall.sh --lang=de # Deutsch
-```
+wget -O autopasswall.sh https://raw.githubusercontent.com/cbfst/pr-passwall/main/autopasswall.sh && tr -d '\r' < autopasswall.sh > /tmp/.ap && mv -f /tmp/.ap autopasswall.sh && chmod +x autopasswall.sh && ash autopasswall.sh --lang=en # English
 
 ## 🛠️ CLI Management (`passwall`)
 
