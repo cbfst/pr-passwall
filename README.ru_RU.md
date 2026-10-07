@@ -67,7 +67,7 @@ wget -O https://raw.githubusercontent.com/cbfst/pr-passwall/main/autopasswall.sh
 Для тихой установки без интерактивных запросов используйте флаг `--lang` (`en, ru, es, de`):
 
 ```sh
-autopasswall.sh > /tmp/.ap && mv -f /tmp/.ap autopasswall.sh && chmod +x autopasswall.sh && ash autopasswall.sh --lang=ru
+autopasswall.sh > /tmp/.ap && mv -f /tmp/.ap autopasswall.sh && chmod +x autopasswall.sh && ash autopasswall.sh --lang=ru # Русский
 ```
 
 ## 🛠️ Управление через CLI (`passwall`)
