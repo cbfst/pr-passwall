@@ -63,20 +63,11 @@ Verwenden Sie diese Option nur, wenn Sie sich bereits selbstständig über SSH m
 wget -O autopasswall.sh https://raw.githubusercontent.com/cbfst/pr-passwall/main/autopasswall.sh && tr -d '\r' < autopasswall.sh > /tmp/.ap && mv -f /tmp/.ap autopasswall.sh && chmod +x autopasswall.sh && ash autopasswall.sh
 ```
 
-#### Sprachwahl bei der direkten Installation
-Für eine stille Installation ohne interaktive Abfragen verwenden Sie den Flag `--lang`:
+#### Sprachauswahl bei direkter Installation
+Für eine unbeaufsichtigte Installation ohne interaktive Abfragen verwenden Sie das Flag `--lang` (`en, ru, es, de`):
 
 ```sh
-/tmp/autopasswall.sh --lang=ru # Русский
-```
-```sh
-/tmp/autopasswall.sh --lang=en # English
-```
-```sh
-/tmp/autopasswall.sh --lang=es # Español
-```
-```sh
-/tmp/autopasswall.sh --lang=de # Deutsch
+wget -O autopasswall.sh https://raw.githubusercontent.com/cbfst/pr-passwall/main/autopasswall.sh && tr -d '\r' < autopasswall.sh > /tmp/.ap && mv -f /tmp/.ap autopasswall.sh && chmod +x autopasswall.sh && ash autopasswall.sh --lang=de # Deutsch
 ```
 
 ## 🛠️ Verwaltung über den CLI (`passwall`)
